@@ -80,7 +80,4 @@ while running:
     else:
         print("你太硬了，怪兽被你干死了")
         running=False
-    if playerblood<0:   #检查玩家是否被击败
-        print("死了啦，都是你害的")
-        running=False
 input("......")
