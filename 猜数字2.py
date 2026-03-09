@@ -9,9 +9,7 @@ max=999
 min=1
 running=True
 while running:
-    minstr=str(min)
-    maxstr=str(max)
-    print("猜一个"+minstr+"至"+maxstr+"之间的整数")
+    print("猜一个", min, "至", max, "之间的整数")
     guess=int(input("请输入："))
     if guess==num:
         time=time+1
