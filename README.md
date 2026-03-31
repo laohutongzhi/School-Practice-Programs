@@ -16,7 +16,27 @@ IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和
 ### [猜数字](/猜数字.py)
 
 <pre>
+一个用 Python 实现的猜数字游戏：
+- 程序先随机在 1~999 之间选一个整数作为目标值。
+- 用户循环输入猜测值。
+- 每次猜测后给出“太大”、“太小”或“正确”的提示。
+- 猜中后输出总共猜测次数并结束游戏。
+</pre>
 
+---
+
+### [CtoF](/CtoF.py)
+
+<pre>
+输入摄氏温度，输出华氏温度
+</pre>
+
+---
+
+### [Distance Of Two Point](/DistanceOfTwoPoint.py)
+
+<pre>
+输入平面上的两个点坐标，计算两点间距离。
 </pre>
 
 ---
@@ -45,6 +65,22 @@ IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和
 
 ---
 
+### [Separate Decimals](/separateDecimals.py)
+
+<pre>
+输入一个浮点数，分别输出它的整数部分和小数部分（小数部分保留3位小数）
+</pre>
+
+---
+
+### [Solve Quadratic Equations](/solveQuadraticEquations.py)
+
+<pre>
+求ax^2+bx+c=0方程的根。
+</pre>
+
+---
+
 ### [how many time people can distory the earth](/howmanytimepeoplecandistorytheearth.py)
 
 <pre>
@@ -54,4 +90,12 @@ IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和
     一行，包括四个正整数x，a，y，b，两个整数之间用单个空格隔开。x > y，a < b，ax < by，各整数均不大于10000
 输出：
     一个实数 z ，表示地球最多养活 z 亿人，舍入到小数点后两位。
+</pre>
+
+---
+
+### [Upper a str](/upperastr.py)
+
+<pre>
+输入任意多个小写字母和任意字符， 只输出原字符串中小写字母的转换后的大写字母
 </pre>
