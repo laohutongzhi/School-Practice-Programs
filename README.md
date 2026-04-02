@@ -25,6 +25,15 @@ IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和
 
 ---
 
+### [creat Save text](/creatSavetxt.py)
+
+<pre>
+`saveed()`把李华的姓名，学号，保存在文件“学生信息.txt”中
+`saveInput()`输入路径、姓名、学号、各科成绩的分数，保存在文件“[指定路径]\成绩单.txt”中
+</pre>
+
+---
+
 ### [CtoF](/CtoF.py)
 
 <pre>
@@ -76,7 +85,7 @@ IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和
 ### [Solve Quadratic Equations](/solveQuadraticEquations.py)
 
 <pre>
-求ax^2+bx+c=0方程的根。
+求ax<sup>2</sup>+bx+c=0方程的根。
 </pre>
 
 ---
