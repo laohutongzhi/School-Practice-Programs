@@ -29,12 +29,31 @@ def saveInput():
         f.write("英语成绩：{}\n".format(English))
     print("写入完毕")
 
+
+def printAsShit():
+    name = str(input("输入姓名："))
+    age = str(input("输入年龄："))
+    city = str(input("输入城市："))
+    print(  "**********",
+            "姓名：" + name,
+            "年龄：" + age,
+            "城市：" + city,
+            "**********", sep="\n")
+
+
+def printAsPoem():
+    Poem = []
+    Marks = ["，", "。"]
+    Poem.append(str(input("写一行诗：")))
+    Poem.append(str(input("再写一行：")))
+    Poem.append(str(input("又写一行：")))
+    Poem.append(str(input("最后一行：")))
+    for i in range(4):
+        print(Poem[i] + Marks[i % 2])
+
+
 def main():
-    I = input("按回车直接保存，输入任意内容后回车自定义保存路径和内容：")
-    if I:
-        saveed()
-    else:
-        saveInput()
+    pass
 
 if __name__ == "__main__":
     main()

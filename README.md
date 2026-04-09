@@ -8,7 +8,7 @@ Code taught at school, program written by myself
 
 <pre>
 Python编写的555定时器集成电路（IC）模拟程序。
-IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和各引脚电位（P2触发、P3输出、P6阈值、P4复位、P5控制电压），计算并返回输出引脚P3的状态和P7（放电引脚）的状态。
+<kbd>IC_555()</kbd>：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和各引脚电位（P2触发、P3输出、P6阈值、P4复位、P5控制电压），计算并返回输出引脚P3的状态和P7（放电引脚）的状态。
 </pre>
 
 ---
@@ -28,8 +28,10 @@ IC_555()：模拟555 IC的工作原理，根据输入的电源电压（Vcc）和
 ### [creat Save text](/creatSavetxt.py)
 
 <pre>
-`saveed()`把李华的姓名，学号，保存在文件“学生信息.txt”中
-`saveInput()`输入路径、姓名、学号、各科成绩的分数，保存在文件“[指定路径]\成绩单.txt”中
+<kbd>saveed()</kbd>把李华的姓名，学号，保存在文件“学生信息.txt”中
+<kbd>saveInput()</kbd>输入路径、姓名、学号、各科成绩的分数，保存在文件“[指定路径]\成绩单.txt”中
+<kbd>printAsShit()</kbd>获取用户的姓名、年龄、城市，然后按照某个格式输出
+<kbd>printAsPoem()</kbd>从键盘输入一首诗（不加标点），然后加上标点输出
 </pre>
 
 ---
