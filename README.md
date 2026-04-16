@@ -110,3 +110,57 @@ Python编写的555定时器集成电路（IC）模拟程序。
 <pre>
 输入任意多个小写字母和任意字符， 只输出原字符串中小写字母的转换后的大写字母
 </pre>
+
+---
+
+### [calbonus](/calbonus.py)
+
+<pre>
+根据当月利润计算奖金：
+- 利润不超过10万元时奖金为10%。
+- 10万到20万部分按7.5%提成，其余部分按10%。
+- 20万到40万部分按5%提成。
+- 40万到60万部分按3%提成。
+- 60万到100万部分按1.5%提成。
+- 超过100万部分按1%提成。
+</pre>
+
+---
+
+### [comparisonXY](/comparisonXY.py)
+
+<pre>
+输入两个整数 x 和 y，比较它们的大小关系。
+- 如果 x 小于 y，输出 x < y。
+- 如果 x 大于 y，输出 x > y。
+- 如果相等，输出 x = y。
+</pre>
+
+---
+
+### [triangleinfo](/triangleinfo.py)
+
+<pre>
+输入三条边长，判断是否能构成三角形。
+- 如果能构成，输出“可以组成三角形”。同时输出三角形类型：等边、等腰、直角或等腰直角。
+- 如果不能构成，输出“不能组成三角形”。
+</pre>
+
+---
+
+### [walkORride](/walkORride.py)
+
+<pre>
+根据距离判断骑车还是走路更快。
+- 骑车需先开锁并上车，总共耗时固定 50 秒再加骑行时间。
+- 步行速度为 1.2 米/秒，骑车速度为 3.0 米/秒。
+- 如果骑车更快，输出 Bike；如果走路更快，输出 Walk；相同时输出 All。
+</pre>
+
+---
+
+## Hey There!
+
+### You find a Stone pillar!
+
+![Stone Badge](https://stone.professorlee.work/api/stone/laohutongzhi/School-Practice-Programs)
