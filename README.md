@@ -105,6 +105,14 @@ Python编写的555定时器集成电路（IC）模拟程序。
 
 ---
 
+### [how many special character here](/howManySpecialCharacterHere.py)
+
+<pre>
+从键盘输入一行字符，分别统计并输出其中大写英文字符、小写英文字符、中文字符、数字和其它字符的个数。
+</pre>
+
+---
+
 ### [Upper a str](/upperastr.py)
 
 <pre>
@@ -155,6 +163,19 @@ Python编写的555定时器集成电路（IC）模拟程序。
 - 骑车需先开锁并上车，总共耗时固定 50 秒再加骑行时间。
 - 步行速度为 1.2 米/秒，骑车速度为 3.0 米/秒。
 - 如果骑车更快，输出 Bike；如果走路更快，输出 Walk；相同时输出 All。
+</pre>
+
+---
+
+### [While For Nothing](/WhileForNothing.py)
+
+<pre>
+<kbd>whilecal100()</kbd>：使用 while 循环，计算输出1+2+…+100的和
+<kbd>forcal100()</kbd>：使用 for 循环，计算输出1+2+…+100的和
+<kbd>whileprinteven(i)</kbd>：使用 while 循环，输出1—100之间所有偶数
+<kbd>forprinteven(i)</kbd>：使用 for 循环，输出1—100之间所有偶数
+<kbd>whileLCM(a, b)</kbd>：使用 while 循环，输入两个正整数，输出最小公倍数
+<kbd>forLCM(a, b)</kbd>：使用 for 循环，输入两个正整数，输出最小公倍数
 </pre>
 
 ---
