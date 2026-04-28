@@ -63,7 +63,7 @@ Python编写的555定时器集成电路（IC）模拟程序。
 ### [Reverse output](/ReverseOutput.py)
 
 <pre>
-键盘输入的字并倒序输出
+给定一个整数，将该数各个位上数字反转得到一个新数,保留正负。
 </pre>
 
 ---
@@ -172,10 +172,35 @@ Python编写的555定时器集成电路（IC）模拟程序。
 <pre>
 <kbd>whilecal100()</kbd>：使用 while 循环，计算输出1+2+…+100的和
 <kbd>forcal100()</kbd>：使用 for 循环，计算输出1+2+…+100的和
-<kbd>whileprinteven(i)</kbd>：使用 while 循环，输出1—100之间所有偶数
-<kbd>forprinteven(i)</kbd>：使用 for 循环，输出1—100之间所有偶数
+<kbd>whileprinteven(i)</kbd>：使用 while 循环，输出1—i之间所有偶数
+<kbd>forprinteven(i)</kbd>：使用 for 循环，输出1—i之间所有偶数
 <kbd>whileLCM(a, b)</kbd>：使用 while 循环，输入两个正整数，输出最小公倍数
 <kbd>forLCM(a, b)</kbd>：使用 for 循环，输入两个正整数，输出最小公倍数
+<kbd>forPrimeNumbers2_500()</kbd>：使用 for 循环，输出2~500之间的所有素数
+</pre>
+
+---
+
+### [Counting Positive And Negative Integers](/CountingPositiveAndNegativeIntegers.py)
+
+<pre>
+读入一系列整数，统计出正整数个数和负整数个数，读入0则结束。
+</pre>
+
+---
+
+### [Who Is The Chief](/WhoIsTheChief.py)
+
+<pre>
+逻辑推理题：某小区发生盗窃案，有四个人嫌疑最大（A、B、C、D），根据他们的陈述找出谁是凶手（四人中有一人说了假话）。
+</pre>
+
+---
+
+### [Judge Divisible And Threes](/judge_divisible_and_threes.py)
+
+<pre>
+输入两个正整数m和k，判断m能否被19整除，且恰好含有k个3，如果满足条件，则输出YES，否则，输出NO。
 </pre>
 
 ---
