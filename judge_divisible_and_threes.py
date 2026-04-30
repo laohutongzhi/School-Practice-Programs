@@ -9,10 +9,7 @@
 m = str(input("请输入正整数m："))
 k = int(input("请输入正整数k："))
 
-for i in m:
-    if i == '3':
-        k -= 1
-if int(m) % 19 == 0 and k == 0:
+if int(m) % 19 == 0 and m.count('3') == k:
     print("YES")
 else:
     print("NO")
