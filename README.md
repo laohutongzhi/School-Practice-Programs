@@ -205,6 +205,36 @@ Python编写的555定时器集成电路（IC）模拟程序。
 
 ---
 
+### [BallBounceOnTheGround](/BallBounceOnTheGround.py)
+
+<pre>
+自由落体反弹模拟：
+- 初始高度 high=100，每次落地后反弹高度为当前高度的一半。
+- 计算第 time=10 次落地时的累计经过距离和第 10 次反弹高度。
+</pre>
+
+---
+
+### [Chickens and Rabbits in the Same Cage](/ChickensandRabbitsintheSameCage.py)
+
+<pre>
+鸡兔同笼问题求解：
+- 已知头数 head=50，脚数 foot=160。
+- 遍历鸡的数量，求出符合脚数的鸡和兔数量组合并输出。
+</pre>
+
+---
+
+### [Find Palindrome Number In Input](/findPalindromeNumberInInput.py)
+
+<pre>
+从输入字符串中提取所有不同回文子串并统计数量：
+- 依次枚举所有子串，判断是否为回文。
+- 去重后打印所有回文子串，并输出总数。
+</pre>
+
+---
+
 ## Hey There!
 
 ### You find a Stone pillar!
