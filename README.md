@@ -235,6 +235,39 @@ Python编写的555定时器集成电路（IC）模拟程序。
 
 ---
 
+### [Candy Game](/CandyGame.py)
+
+<pre>
+十个小孩分糖果的模拟：
+- 初始糖块列表为 [10, 2, 8, 22, 16, 4, 10, 6, 14, 20]。
+- 每轮每位小孩把手中糖的一半给右侧；若糖块为奇数则向老师要一块。
+- 程序循环直到每人糖块数相同，输出所需轮次数和每人糖块数。
+</pre>
+
+---
+
+### [List Something](/ListSomething.py)
+
+<pre>
+一组与列表操作相关的工具函数集合：
+- <kbd>list20()</kbd>：返回 2~20 的偶数列表。
+- <kbd>createlist()</kbd> / <kbd>createlistonce()</kbd>：从用户输入构造列表。
+- <kbd>fibonacci30()</kbd>:生成前30项斐波那契数列
+- <kbd>printfibonacci()</kbd>：将斐波那契数列的前30个存入列表中，并完成每行五个的输出
+- 其它函数包括求和、求最小/最大值、反转、排序等实用操作。
+</pre>
+
+---
+
+### [Choice Book](/choicebook.py)
+
+<pre>
+从六本书中选若干本，使价格和最接近 10 的组合搜索：
+- 给定书价列表 [3.1, 1.7, 2, 5.3, 0.9, 7.2]，枚举所有子集并计算总价。
+</pre>
+
+---
+
 ## Hey There!
 
 ### You find a Stone pillar!
