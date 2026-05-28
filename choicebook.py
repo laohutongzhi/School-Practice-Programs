@@ -12,7 +12,7 @@ closest_choice = []
 
 
 def dec2bin(num):
-    """将十进制数转为二进制位列表，高位在前。"""
+    # 将十进制数转为二进制位列表，高位在前。
     l = []
     while True:
         remainder = num % 2
@@ -23,13 +23,13 @@ def dec2bin(num):
 
 
 def reform_choice(choice):
-    """补齐选择列表到6位（使用0填充）。"""
+    # 补齐选择列表到6位（使用0填充）。
     choice = [0] * (6 - len(choice)) + choice
     return choice
 
 
 def count_price(choice):
-    """根据选择计算总价。"""
+    # 根据选择计算总价。
     price = 0
     for i in range(len(choice)):
         price += books[i] * choice[i]
@@ -37,7 +37,7 @@ def count_price(choice):
 
 
 def closest_try(price, choice):
-    """更新并保存当前最接近目标的组合。"""
+    # 更新并保存当前最接近目标的组合。
     if not closest:
         closest.append(price)
         closest_choice.append(choice)
@@ -46,7 +46,7 @@ def closest_try(price, choice):
         closest_choice.clear()
         closest.append(price)
         closest_choice.append(choice)
-    elif abs(aim - closest[-1]) > abs(aim - price) and price != closest[-1]:
+    elif abs(aim - closest[-1]) == abs(aim - price):
         closest.append(price)
         closest_choice.append(choice)
     return closest, closest_choice
@@ -58,6 +58,6 @@ for i in range(round):
     price = count_price(choice)
     closest, closest_choice = closest_try(price, choice)
 
-# 输出最接近目标的选择和对应价格
-print(closest_choice)
-print(closest)
+for i in range(len(closest)):
+    # 输出最接近目标的选择和对应价格
+    print("选择为{}，价格是{}".format(closest_choice[i], closest[i]))

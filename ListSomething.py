@@ -41,7 +41,7 @@ def listnmax(n: int):  # 输入n个数存入列表中，找出其中最大值
 
 
 def fibonacci30():  # 将斐波那契数列的前30个存入列表中
-    seq = [1, 1]
+    seq = [0, 1]
     for i in range(2, 30):
         seq.append(seq[i - 2] + seq[i - 1])
     return seq
@@ -49,11 +49,12 @@ def fibonacci30():  # 将斐波那契数列的前30个存入列表中
 
 def printfibonacci():  # 将斐波那契数列的前30个存入列表中，并完成每行五个的输出
     seq = fibonacci30()
-    formatlst = []
     for i in range(0, len(seq), 5):
-        formatlst.append(i)
-    for i in range(len(formatlst) - 1):
-        print(seq[formatlst[i] : formatlst[i + 1]])
+        print(
+            "{0:5d} {1:6d} {2:6d} {3:6d} {4:6d}".format(
+                seq[i], seq[i + 1], seq[i + 2], seq[i + 3], seq[i + 4]
+            )
+        )
 
 
 def listreverse():  # 从键盘输入10个数，存入列表，然后将列表中的10个数居中对称互换

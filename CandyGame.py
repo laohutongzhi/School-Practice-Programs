@@ -20,7 +20,6 @@
 
 list1 = [10, 2, 8, 22, 16, 4, 10, 6, 14, 20]
 list2 = list1.copy()
-flag = 1
 roundn = 0
 
 
@@ -32,17 +31,10 @@ def allsame(lst):
 
 
 while not allsame(list1):
-    if flag == 1:
-        for i in range(len(list1) - 1):
-            list2[i + 1] = int((list1[i] + list2[i + 1] + 1) // 2)
-        list2[0] = int((list1[-1] + list2[0] + 1) // 2)
-        list1 = list2.copy()
-    elif flag == -1:
-        for i in range(len(list1) - 1):
-            list1[i + 1] = int((list2[i] + list1[i + 1] + 1) // 2)
-        list1[0] = int((list2[-1] + list1[0] + 1) // 2)
-        list2 = list1.copy()
-    flag = -flag
+    for i in range(len(list1) - 1):
+        list2[i + 1] = int((list1[i] + 1) // 2 + (list2[i + 1] + 1) // 2)
+    list2[0] = int((list1[-1] + 1) // 2 + (list2[0] + 1) // 2)
+    list1 = list2.copy()
     roundn += 1
 
 print(roundn, "次后大家手中的糖的块数一样多")
