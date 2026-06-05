@@ -268,6 +268,33 @@ Python编写的555定时器集成电路（IC）模拟程序。
 
 ---
 
+### [How Many Words In Sentence](/HowManyWordsInSentence.py)
+
+<pre>
+统计一句英文句子中各单词出现次数，并按出现频率降序输出：
+
+</pre>
+
+---
+
+### [Set Something](/setsomething.py)
+
+<pre>
+集合操作示例：
+- 使用字符串构造集合并计算并集（`a | b`）与交集（`a & b`）。
+- 示例使用 `abracadabra` 与 `alacazam`，并打印结果。
+</pre>
+
+---
+
+### [Solar to Lunar](/solar2lunar.py)
+
+<pre>
+公历年份转干支纪年与生肖：
+- <kbd>solor2lunar(solor)</kbd> 将公历年转换为天干地支加生肖表示（如“辛丑牛年”）。
+- 主程序从键盘读取年份并打印对应农历年字符串。
+</pre>
+
 ## Hey There!
 
 ### You find a Stone pillar!
